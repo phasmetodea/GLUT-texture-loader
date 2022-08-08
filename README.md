@@ -3,7 +3,7 @@
 
 How to install;
 1. Download the C header file
-2. Put the header file in your "include" folder
+2. Put the header file in your compilers "include" folder
 3. Add it to your program by using #include "GLtexture.h"
 
 
