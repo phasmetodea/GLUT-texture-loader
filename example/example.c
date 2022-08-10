@@ -47,7 +47,7 @@ int main(int argc, char** argv)
 {
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH);
-    glutCreateWindow("Texture Mapping - Programming Techniques");
+    glutCreateWindow("Texture Mapping Example");
     GLloadtexture("image.bmp");
     glutReshapeFunc (myReshape);
     glutDisplayFunc(display);
