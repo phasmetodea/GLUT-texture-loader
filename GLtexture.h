@@ -112,7 +112,7 @@ Image * loadTexture(char *texname){
     return image1;
 }
 
-void GLloadtexture(char *tex)
+int GLloadtexture(char *tex)
 {
     glClearColor (0.5, 0.5, 0.5, 0.0);
     glEnable(GL_DEPTH_TEST);
@@ -143,4 +143,5 @@ void GLloadtexture(char *tex)
     glEnable(GL_TEXTURE_2D);
     glShadeModel(GL_FLAT);
     gltexture = texturel[0];
+    return gltexture;
 }
